@@ -74,8 +74,8 @@
 
 }
 .item2{
-    grid-column-start: 3;
-    grid-column-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 .sticky{
     position: sticky;
@@ -88,4 +88,3 @@
     border: 2px solid seagreen ;
     padding: 10px;
 }
-
