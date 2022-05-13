@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+.blur{
+    filter: blur(6px);
+}
+.contain{
+    margin: auto;
+    width: 40%;
+    height: 150px;
+    border: 3px solid orange;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px gray;
+    font-size: 22px;
+    transform: translateY(-400px);
+    background-color: antiquewhite;
+}
+.upperpart{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    flex-flow: row;
+    gap: 10px;
+    padding: 30px;
+}
+.upperpartelement{
+    font-size: 40px;
+}
+.lowerpart{
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 35px
+
+}
+.lowerpartelement{
+    border: 3px solid orange;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px gray;
+    height: 300px;
+    font-size: 22px;
+    position: relative;
+}
+hr{
+    position: absolute;
+    right: 0;
+    top: 17%;
+}
+.buttonid{
+    border-radius: 50%;
+    border: none;
+    width: 5%;
+    font-size: 30px;
+    background-color: gold;
+    cursor: pointer;
+    transform: translateX(360px) translateY(10px) ;
+}
+.buttonid:hover{
+    border-radius: 50%;
+    background-color: aqua;
+    width: 5%;
+    border: none;
+}
+#buton{
+    margin: auto;
+    width: 16%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aqua;
+    border: 2px solid red;
+    cursor: pointer;
+}
