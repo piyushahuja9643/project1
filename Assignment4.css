@@ -1,0 +1,72 @@
+.ele1{
+    background-image: linear-gradient(to right,red,green,yellow);
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    width: 100vw;
+}
+.ele2{
+    height: auto;
+    margin: auto;
+    width: 60vw;
+    background-color: goldenrod;
+    border: 3px solid saddlebrown;
+    text-align: center;
+    font-size: 2rem;
+}
+.ele3{
+    background-color: darkseagreen;
+    border: 3px solid palevioletred ;
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 20px;
+}
+.ele4{
+    background-color: hotpink;
+    border: 2px solid khaki;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.ele4a{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.ele5{ 
+    width: 100vw;
+    background-image: linear-gradient(to right,red,yellow,red);
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.ele6{
+    width: 100vw;
+    background-image: radial-gradient(ellipse,blue,green);
+    border: 5px solid aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.ele7{
+    width: 200px ;
+    height: 140px;
+    border-radius: 20px;
+    background-color: aqua;
+    border: 2px solid royalblue;
+    text-align: center;
+}
+.ele8{
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 28vw 28vw 28vw 10vw;
+    padding: 10px;
+    gap: 10px;
+}
