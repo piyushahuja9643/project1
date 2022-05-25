@@ -33,7 +33,7 @@
     transform: translateX(-350px) translateY(60px);
 }
 .nextpage{
-    transform: translateX(-1200px) translateY(800px);
+    transform: translateX(-1050px) translateY(900px);
 }
 hr{
     position: absolute;
@@ -146,7 +146,7 @@ hr{
         transform: translateY(-75px);
     }
     .lowerpart{
-        transform: translateX(-285px) translateY(-30px) ;
+        transform: translateX(60px) translateY(-50px) ;
         display: grid;
         grid-template-columns: 300px;
     }
@@ -173,7 +173,7 @@ hr{
         border: none;
     }
     .nextpage{
-        transform: translateX(-500px) translateY(460px);
+        transform: translateX(-600px) translateY(500px);
     }
     .blur{
         filter: blur(6px);
