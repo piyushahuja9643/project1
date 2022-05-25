@@ -1,0 +1,181 @@
+body{
+    background-image: url(https://images.firstpost.com/wp-content/uploads/2020/10/A-desert-tree-in-Morocco-Sahara_Image-Courtesy-Sergey-Pesterev-Unsplash.jpg);
+    background-repeat: no-repeat;
+}
+.navigation{
+    transform: translateX(850px) translateY(20px) ;
+    display: grid;
+    grid-template-columns: 90px 100px 100px 90px;
+    cursor: pointer;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    color: white;
+    transform: translateX(50px) translateY(100px);
+    gap: 20px;
+}
+.text1{
+    font-size: 60px; font-weight: bolder;
+}
+button{
+    border-radius: 30px;width: 150px;height: 40px;
+}
+img{
+    transform: translateX(50px) ;
+    border-radius: 60%; 
+    width: 100px;
+    height: 100px; 
+}
+.cont{
+    transform: translateX(750px) translateY(-250px);
+    width: 440px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 220px 220px;
+    padding: 20px;
+    gap: 20px;
+}
+.cont1{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.cont1:hover{
+    transform: translateY(15px);
+}
+button:hover{
+    transform: scale(1.5);
+}
+@media (min-width:451px) and (max-width:800px){
+    body{
+        background-image: url(https://images.firstpost.com/wp-content/uploads/2020/10/A-desert-tree-in-Morocco-Sahara_Image-Courtesy-Sergey-Pesterev-Unsplash.jpg);
+        background-repeat: repeat-y;
+    }
+    .navigation{
+        transform: translateX(100px) translateY(40px) ;
+        display: grid;
+        grid-template-columns: 70px 80px 80px 70px;
+        cursor: pointer;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: auto;
+        color: white;
+        transform: translateX(30px) translateY(10px);
+        gap: 10px;
+    }
+    .text1{
+        font-size: 30px; font-weight: bolder;
+    }
+    button{
+        border-radius: 30px;width: 80px;height: 25px;
+    }
+    img{
+        transform: translateX(30px) ;
+        border-radius: 50%; 
+        width: 70px;
+        height: 70px; 
+    }
+    .cont{
+        transform: translateX(10px) translateY(-5px);
+        width: 800px;
+        height: auto;
+        display: grid;
+        grid-template-columns: 400px;
+        padding: 20px;
+        gap: 40px;
+    }
+    .cont1{
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px black;
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        height: 150px;
+        color: white;
+        padding: 10px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .cont1:hover{
+        transform: translateY(15px);
+    }
+    button:hover{
+        transform: scale(1.5);
+    } 
+}
+@media (min-width:100px) and (max-width:450px) {
+    body{
+        background-image: url(https://images.firstpost.com/wp-content/uploads/2020/10/A-desert-tree-in-Morocco-Sahara_Image-Courtesy-Sergey-Pesterev-Unsplash.jpg);
+        background-repeat: repeat-y;
+    }
+    .navigation{
+        transform: translateX(330px) translateY(40px) ;
+        display: grid;
+        grid-template-columns: 70px 80px 80px 70px;
+        cursor: pointer;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: auto;
+        color: white;
+        transform: translateX(30px) translateY(10px);
+        gap: 10px;
+    }
+    .text1{
+        font-size: 30px; font-weight: bolder;
+    }
+    button{
+        border-radius: 30px;width: 80px;height: 25px;
+    }
+    img{
+        transform: translateX(30px) ;
+        border-radius: 50%; 
+        width: 70px;
+        height: 70px; 
+    }
+    .cont{
+        transform: translateX(10px) translateY(10px);
+        width: 800px;
+        height: auto;
+        display: grid;
+        grid-template-columns: 400px;
+        padding: 20px;
+        gap: 40px;
+    }
+    .cont1{
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px black;
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        height: 150px;
+        color: white;
+        padding: 10px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .cont1:hover{
+        transform: translateY(15px);
+    }
+    button:hover{
+        transform: scale(1.5);
+    } 
+}
